@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  margin: 0;
+}
+
+body{
+  background-image: url(main_bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  margin-top: 50px;
+  list-style-type: none;
+  float: right;
+  font-size: 1.5rem;
+  font-family: 'Anton', sans-serif;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 35px;
+  border: 1px solid transparent;
+  transition: 0.3s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.logo img{
+  float:left;
+  width: 150px;
+  height: auto;
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.flex-container{
+  clear: both;
+  float: left;
+  background-color: transparent;
+  margin-top: 100px;
+  margin-left: 32%;
+}
+
+.flex-container:nth-of-type(2){
+  background-color: transparent;
+  font-size: 50px;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+}
+
+.octo, .octo div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+.octo, .octo div {
+  width: 200px;
+  height: 200px;
+}
+.octo {
+  transform: rotate(45deg);
+}
+.octo1 {
+  transform: rotate(-45deg);
+}
+
+.part{
+  padding-top: 50px;
+}
