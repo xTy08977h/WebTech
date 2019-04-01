@@ -98,3 +98,18 @@ html {
   width: 500px;
   height: 900px;
 }
+
+.box-container{
+  max-width: 1400px;
+  margin: 40px auto 0 auto;
+  display: flex;
+}
+
+.box{
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.box:nth-child(1){background-color: red;}
+.box:nth-child(2){background-color: green;}
+.box:nth-child(3){background-color: blue;}

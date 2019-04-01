@@ -72,6 +72,10 @@ nav ul li a.active{
   border-radius: 6px;
 }
 
+.logo a{
+  color: white;
+}
+
 
 section.sec1{
   width: 100%;
@@ -201,4 +205,13 @@ a .sec5{
 .video iframe{
   margin-left: 500px;
   margin-bottom: 60px;
+}
+
+.chest-sec{
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(muscular-bodybuilder-guy-doing-exercises-royalty-free-image-876873612-1551107296.jpg);
+  background-size: cover;
+  background-position: center;
 }
