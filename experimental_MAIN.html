@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ATHLIIUM</title>
+    <link rel="stylesheet" type="text/css" href="experimental_STYLE.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.js">
+    </script>
+    <script type="text/javascript">
+      $(window).on('scroll', function(){
+        if ($(window).scrollTop()){
+          $('nav').addClass('black');
+        }
+
+        else{
+          $('nav').removeClass('black');
+        }
+      })
+    </script>
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <nav>
+        <div class="logo">
+          ATHLIIUM
+        </div>
+
+        <ul>
+          <li><a href="#">Workout</a>
+          </li>
+          <li><a href="#">Fitness Plan</a>
+          </li>
+          <li ><a href="#">Nutrition</a>
+          </li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a class="active" href="#">Log In</a></li>
+        </ul>
+
+
+      </nav>
+
+      <section class="sec1">
+      </section>
+      <div class="katakata">
+        <h1>Let's start your training!</h1>
+      </div>
+
+      <br>
+
+      <a href="arm.html"><section class="sec2">
+        <h1>Arms</h1>
+      </section></a>
+
+      <a href="#"><section class="sec3">
+        <h1>Chest</h1>
+      </section></a>
+
+      <a href="#"><section class="sec4">
+        <h1>Posterior</h1>
+      </section></a>
+
+      <a href="#"><section class="sec5">
+        <h1>Legs</h1>
+      </section></a>
+
+    </div>
+  </body>
+</html>
