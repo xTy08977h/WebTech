@@ -211,7 +211,25 @@ a .sec5{
   top: 0;
   width: 100%;
   height: 100vh;
-  background: url(muscular-bodybuilder-guy-doing-exercises-royalty-free-image-876873612-1551107296.jpg);
+  background: url(ROB2_1200x672_acf_cropped_1200x672_acf_cropped_1200x672_acf_cropped.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.posterior-sec{
+  top: 0;
+  width: 100%;
+  height: 90vh;
+  background: url(4-Back-Friendly-Tricks-to-Deadlifting.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.leg-sec{
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(training-pace-calculator-1534874738.jpg);
   background-size: cover;
   background-position: center;
 }

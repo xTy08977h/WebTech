@@ -1,0 +1,115 @@
+body{
+  font-family: Montserrat, sans-serif;
+}
+
+html {
+    background: url(main_bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+#tah{
+  margin-left: 8%;
+  position: fixed;
+}
+
+#athliium{
+  float: left;
+  background-color: transparent;
+  color: white;
+  width: 200px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+#athliium a{
+  text-decoration: none;
+  color: white;
+}
+
+.menu{
+  position: fixed;
+  float: right;
+  margin-top: 1.7%;
+  margin-left: 300px;
+  font-size: 1rem;
+  font-weight:
+
+}
+
+.menu ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu ul li{
+  list-style: none;
+  float: left;
+  width: 200px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+  display: block;
+}
+
+.menu ul li a:hover{
+  background-color: white;
+  color: black;
+}
+
+.menu ul li ul li{
+  display: none;
+}
+
+.menu ul li:hover ul li{
+  display: block;
+}
+
+.test{
+  clear: both;
+  width: 1000px;
+  margin: 50px auto 0 auto;
+  margin-left: 250px;
+  display: flex;
+}
+
+.first-column {
+  font-size: 50px;
+  color: white;
+  padding-top: 200px;
+  flex: 1;
+}
+
+.second-column{
+  flex: 1;
+}
+
+.second-column img{
+  margin-top: -150px;
+  width: 500px;
+  height: 900px;
+}
+
+.box-container{
+  max-width: 1400px;
+  margin: 40px auto 0 auto;
+  display: flex;
+}
+
+.box{
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.box:nth-child(1){background-color: red;}
+.box:nth-child(2){background-color: green;}
+.box:nth-child(3){background-color: blue;}
