@@ -1,0 +1,373 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  padding-left: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 100px;
+  box-sizing: border-box;
+  transition: .3s;
+}
+
+nav.black{
+  background: rgba(0,0,0,0.8);
+  height: 100px;
+  padding: 10px 100px;
+}
+
+nav .logo{
+  padding: 22px 20px;
+  height: 80px;
+  float: left;
+  font-size: 24px;
+  transition: .3s;
+  color: white;
+
+}
+
+nav.black .logo {
+  color: #fff;
+}
+
+nav ul{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+
+}
+
+nav ul li a{
+  line-height: 80px;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+nav.black ul li a{
+  color: #fff;
+
+}
+
+nav ul li a:focus{
+  outline: none;
+}
+
+nav ul li a.active{
+  background: #E2462F;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.logo a{
+  color: white;
+}
+
+
+section#begin{
+  width: 100%;
+  height: 100vh;
+  background: url(main_bg_2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.katakata h1{
+  margin-top: -400px;
+  margin-left: 200px;
+  font-size: 50px;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+#first{
+  margin-top: 290px;
+  width: 100%;
+  height: 100vh;
+  background: url(shutterstock_758180677.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+a #first{
+  color: white;
+}
+
+
+#first h1{
+  margin-left: 800px;
+  padding-top: 200px;
+  font-size: 80px;
+}
+
+
+#second{
+  margin-top: -63px;
+  width: 100%;
+  height: 100vh;
+  background: url(athletic-man-doing-pushups-exercise-at-gym-royalty-free-image-982408932-1542407555.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+a #second{
+  color: white;
+}
+
+#second h1{
+  margin-left: 350px;
+  padding-top: 250px;
+  font-size: 80px;
+  color: white;
+}
+
+#third{
+  margin-top: -63px;
+  width: 100%;
+  height: 100vh;
+  background: url(x1080-4_Z.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+a #third{
+  color: white;
+}
+
+#third h1{
+  margin-left: 950px;
+  padding-top: 350px;
+  font-size: 80px;
+  color: white;
+}
+
+
+#fourth{
+  margin-top: -63px;
+  width: 100%;
+  height: 100vh;
+  background: url(Squat-and-walk.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+#fourth h1{
+  margin-left: 850px;
+  padding-top: 400px;
+  font-size: 80px;
+  color: white;
+}
+
+a #fourth{
+  color: black;
+}
+
+.arm-sec{
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(muscular-bodybuilder-guy-doing-exercises-royalty-free-image-876873612-1551107296.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.workout-description{
+  margin-top: 400px;
+  margin-bottom: 60px;
+}
+
+.workout-description p{
+  width: 900px;
+  margin: 30px auto;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.video iframe{
+  margin-left: 500px;
+  margin-bottom: 60px;
+}
+
+.chest-sec{
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(ROB2_1200x672_acf_cropped_1200x672_acf_cropped_1200x672_acf_cropped.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.posterior-sec{
+  top: 0;
+  width: 100%;
+  height: 90vh;
+  background: url(4-Back-Friendly-Tricks-to-Deadlifting.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.leg-sec{
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(training-pace-calculator-1534874738.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* ---------------------------------------Farhad Code  start from here ----------------------------------------------------------------------------------*/
+
+.workout-description3{
+  margin-top: 1000px;
+  margin-bottom: 0px;
+  width: 900px;
+  margin: 30px auto;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.workout-description1{
+  margin-top: 370px;
+  margin-bottom: 0px;
+}
+
+.workout-description1 p{
+  width: 900px;
+  margin: 30px auto;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.workout-description2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.workout-description2 p{
+  width: 900px;
+  margin: 30px auto;
+  text-align: justify;
+  font-size: 20px;
+}
+
+
+#Button1, #Button2, #Button3, #Button4, #Button5, #Button6, #Button7 {
+    background: #1797B1;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top: 4px solid #badfe7;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 10px 10px;
+    position: fixed;
+    transform: rotate(90deg);
+}
+#Button5, #Button6, #Button7 {
+    background: #6099E2;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top: 4px solid #badfe7;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 5px 10px;
+    position: fixed;
+    transform: rotate(360deg);
+}
+#Button1 {
+  top: 150px;
+  left: -45px;
+}
+#Button2 {
+  top: 290px;
+  left: -45px;
+}
+#Button3 {
+  top: 423px;
+  left: -40px;
+}
+#Button4 {
+    top: 556px;
+    left: -45px;
+}
+#Button5 {
+  top: 520px;
+  left: 40px;
+}
+
+#Button6 {
+  top: 560px;
+  left: 40px;
+}
+#Button7 {
+  top: 600px;
+  left: 40px;
+}
+#Button8 {
+    background: #1797B1;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top: 4px solid #badfe7;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 10px 10px;
+    position: fixed;
+    transform: rotate(-90deg);
+}
+#Button8 {
+  top: 150px;
+  right: -45px;
+
+}
+
+
+.link{
+  width: 900px;
+  margin: 30px auto;
+
+}
+.link p{
+  text-align: justify;
+  font-size: 20px;
+}
+.fbut1, .fbut2, .fbut3{
+  background: #FADBD8;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top: 2px solid #badfe7;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 16px;
+  float: left;
+  margin: 0px 20px 20px 20px;
+  border: 2px solid #1ABC9C;
+  font-weight: bold;
+  font-size: 25px;
+}
+/* ---------------------------------------Farhad Code  End from here ----------------------------------------------------------------------------------*/

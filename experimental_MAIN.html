@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>ATHLIIUM</title>
-    <link rel="stylesheet" type="text/css" href="experimental_STYLE.css">
+    <link rel="stylesheet" type="text/css" href="experimental_STYLE(1).css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script type="text/javascript">
@@ -18,11 +18,13 @@
       }
     });
 
-    $("#sec1").click(function(){
-      $([document.documentElement, document.body]).animate({
-        scrollTop: $("#first").offset().top
-      }, 2000);
-    });
+
+    // $("clickHere").click(function(){
+    //   $([document.documentElement, document.body]).animate({
+    //     scrollTop: $("first").offset().top
+    //   }, 2000);
+    // });
+
     </script>
   </head>
   <body>
@@ -30,11 +32,17 @@
     <div class="wrapper">
       <nav>
         <div class="logo">
-          <a href="experimental_MAIN">ATHLIIUM</a>
+          <a href="experimental_MAIN.html">ATHLIIUM</a>
         </div>
 
         <ul>
           <li><a href="#">Workout</a>
+            <ul>
+              <li>Arms</li>
+              <li>Chest</li>
+              <li>Posterior</li>
+              <li>Legs</li>
+            </ul>
           </li>
           <li><a href="#">Fitness Plan</a>
           </li>
@@ -48,7 +56,7 @@
 
       </nav>
 
-      <a href="#sec1"><section >
+      <a href="#first" id="clickHere"><section id="begin">
       </section>
       <div class="katakata">
         <h1>Let's start your training!</h1>
@@ -61,15 +69,15 @@
         <h1>Arms</h1>
       </section></a>
 
-      <a href="chest.html"><section class="sec3">
+      <a href="chest.html"><section id="second">
         <h1>Chest</h1>
       </section></a>
 
-      <a href="posterior.html"><section class="sec4">
+      <a href="posterior.html"><section id="third">
         <h1>Posterior</h1>
       </section></a>
 
-      <a href="leg.html"><section class="sec5">
+      <a href="leg.html"><section id="fourth">
         <h1>Legs</h1>
       </section></a>
 

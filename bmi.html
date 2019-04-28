@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Leg - ATHLIIUM</title>
+    <link rel="stylesheet" type="text/css" href="experimental_STYLE(1).css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.js">
+    </script>
+    <script type="text/javascript">
+      $(window).on('scroll', function(){
+        if ($(window).scrollTop()){
+          $('nav').addClass('black');
+        }
+
+        else{
+          $('nav').removeClass('black');
+        }
+      })
+    </script>
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <nav>
+        <div class="logo">
+          <a href="experimental_MAIN.html">ATHLIIUM</a>
+        </div>
+
+        <ul>
+          <li><a href="experimental_MAIN.html">Workout</a>
+          </li>
+          <li><a href="#">Fitness Plan</a>
+          </li>
+          <li ><a href="#">Nutrition</a>
+          </li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a class="active" href="#">Log In</a></li>
+        </ul>
+      </nav>
+
+      <section class="leg-sec">
+      </section>
+      <div class="katakata">
+        <h1><mark>Calculate BMI to know health condition!</mark></h1>
+      </div>
+      <section class="workout-description">
+        <p>Calculate you Body Mass Index:</p>
+        <p style="text-align:center;"><strong>BMI Categories:</strong> <br>
+        Underweight = < 18.5 <br>
+        Normal weight = 18.5–24.9 <br>
+        Overweight = 25–29.9 <br>
+        Obesity = BMI of 30 or greater</p>
+      </section>
+
+      <section class="workout-description3">
+        <div class="" style="float:left;">
+          <form>
+            <table>
+              <tr>
+                <td>Weight (kg):</td>
+                <td><input type="number" id="value1"><br></td>
+              </tr>
+              <tr>
+                <td>Height (centimetres):</td>
+                <td><input type="number" id="value2"></td>
+              </tr>
+              <tr>
+                <td colspan="2" style="text-align:right; padding: 5px;"><button type="button" name="button" onclick="calculator()" >Calculate</button>&nbsp;&nbsp;&nbsp;
+                <button type="reset" name="button">Clear</button></td>
+              </tr>
+            </table>
+        </form>
+        </div>
+        <div class="" style="float:left; height:200px;margin-top:-20px; padding-left: 50px;">
+          <p id="ep"></p>
+          <p id="result"></p>
+        </div>
+      </section>
+
+      <a href="arm.html" id="Button1">&nbsp;&nbsp;&nbsp;&nbsp;Arm Work&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <a href="chest.html" id="Button2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chest&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <a href="posterior.html" id="Button3">&nbsp;&nbsp;&nbsp;&nbsp;Posterior&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      <a href="leg.html" id="Button4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Leg-Main&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+      <a href="bmi.html" id="Button8" >BMI Calculator</a>
+
+      <script type="text/javascript" src="jscript.js">
+
+      </script>
+    </div>
+
+  </body>
+</html>
