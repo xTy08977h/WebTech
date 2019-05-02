@@ -392,6 +392,12 @@ a #fourth{
 
 .img-container:hover {opacity: 1}
 
+.words{
+  margin-top: 400px;
+  margin-left: 120px;
+  color: white;
+}
+
 /* ---------------------------------------Farhad Code  start from here ----------------------------------------------------------------------------------*/
 
 .workout-description3{
